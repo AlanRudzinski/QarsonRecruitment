@@ -1,0 +1,5 @@
+@import '../../theme';
+
+tbody tr:nth-child(odd) {
+    background-color: $odd-row-color;
+}

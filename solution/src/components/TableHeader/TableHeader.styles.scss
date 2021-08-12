@@ -1,0 +1,9 @@
+@import '../../theme';
+
+thead {
+    background-color: $primary-color;
+    text-align: left;
+    height: 60px;
+    color: $header-text;
+    font-size: 1.2rem;
+}

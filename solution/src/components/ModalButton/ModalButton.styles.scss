@@ -1,0 +1,19 @@
+@import '../../theme';
+
+.modal-button {
+    min-width: 70px;
+    margin: 10px;
+    height: 30px;
+    border: 1px $primary-color solid;
+    box-shadow: $simple-box-shadow;
+    &:hover {
+        background-color: $primary-color;
+    }
+}
+
+.warning {
+    border: 1px $primary-danger solid;
+    &:hover {
+        background-color: $primary-danger;
+    }
+}
